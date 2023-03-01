@@ -10,7 +10,11 @@
 	 Plug 'iCyMind/NeoSolarized'
 	 Plug 'vim-airline/vim-airline'
 	 Plug 'vim-airline/vim-airline-themes'
+	 Plug 'ellisonleao/gruvbox.nvim'
  call plug#end()
+
+set background=dark " or light if you want light mode
+colorscheme gruvbox
 
 nnoremap <C-v> "*p <CR>
 nnoremap <C-c> "*y <CR>
