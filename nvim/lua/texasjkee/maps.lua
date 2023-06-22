@@ -17,6 +17,9 @@ end
 
 -- <leader> = the space key
 
+--Select all
+map("n", "<C-a>", "gg<S-v>G)
+
 -- Save
 map("n", "<leader>w", "<CMD>update<CR>")
 
